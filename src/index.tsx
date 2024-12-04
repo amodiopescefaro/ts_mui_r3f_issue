@@ -2,6 +2,7 @@ import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
 import { Button } from "@mui/material";
 import { Canvas } from "@react-three/fiber";
+import { Html } from "@react-three/drei";
 
 const container = document.getElementById("root");
 if (!container) {
@@ -15,8 +16,11 @@ createRoot(container).render(
     </Button>
     <Canvas>
       <mesh>
-        <boxGeometry args={[1, 1, 1]} />
+        <Html>
+          <Button onClick={(ev) => console.log(ev)} />
+        </Html>
         <meshBasicMaterial />
+        <boxGeometry />
       </mesh>
     </Canvas>
   </StrictMode>,

@@ -9,13 +9,24 @@
   "license": "ISC",
   "description": "",
   "devDependencies": {
+    "@types/offscreencanvas": "2019.7.3",
     "@types/react": "18.3.12",
     "@types/react-dom": "18.3.1",
+    "@types/three": "0.170.0",
     "typescript": "5.7.2"
   },
   "dependencies": {
-    "@mui/material": "6.1.9",
-    "@react-three/fiber": "8.17.10",
+    "@emotion/react": "11.13.5",
+    "@emotion/styled": "11.13.5",
+    "@mui/icons-material": "5.15.20",
+    "@mui/lab": "5.0.0-alpha.170",
+    "@mui/material": "5.15.20",
+    "@mui/system": "5.15.20",
+    "@mui/x-date-pickers": "7.6.2",
+    "@react-spring/web": "9.6.1",
+    "@react-three/drei": "9.115.0",
+    "@react-three/fiber": "8.16.8",
+    "@react-three/test-renderer": "8.2.1",
     "react": "18.3.1",
     "react-dom": "18.3.1"
   }
